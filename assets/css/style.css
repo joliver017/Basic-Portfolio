@@ -1,5 +1,5 @@
 body {
-    background-image: url("../../assets/images/funky-lines.png");
+    background-image: url("../images/funky-lines.png");
     background-repeat: repeat;
     margin: auto;
 }
@@ -67,6 +67,34 @@ hr {
     padding: 20px 20px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#imgbanner {
+    width: 250px;
+    height: 40px;
+    padding: 20px 0 0 0;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 150px;
+    z-index: 1;
+}
+
+#imgbannerR {
+    width: 250px;
+    height: 40px;
+    padding: 20px 0 0 0;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 344px;
+    margin-top: 150px;
+    z-index: 2;
 }
 
 p {
